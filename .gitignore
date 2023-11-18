@@ -13,3 +13,8 @@ Thumbs.db
 
 # Node
 node_modules/
+
+# Go
+**/*_templ.go
+
+

@@ -25,6 +25,13 @@ tasks:
       - generate
     cmds:
       - go run ./cmd/server/...
+  build:
+    desc: Build the application
+    deps:
+      - assets
+      - generate
+    cmds:
+      - go build -o ./bin/todos ./cmd/server/...
   test:
     desc: Run the tests
     cmds:
