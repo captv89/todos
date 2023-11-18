@@ -18,3 +18,19 @@ node_modules/
 **/*_templ.go
 
 
+bin/todos
+internal/assets/dist/styles.css
+internal/domain/mock_todo_repository.go
+internal/features/home/mock_handler.go
+internal/features/home/mock_service.go
+internal/features/todos/mock_handler.go
+internal/features/todos/mock_service.go
+internal/templates/pages/home_templ.go
+internal/templates/pages/todo_templ.go
+internal/templates/pages/todos_templ.go
+internal/templates/partials/addTodoForm_templ.go
+internal/templates/partials/editTodoForm_templ.go
+internal/templates/partials/renderTodo_templ.go
+internal/templates/partials/renderTodos_templ.go
+internal/templates/partials/search_templ.go
+internal/templates/shared/page_templ.go
